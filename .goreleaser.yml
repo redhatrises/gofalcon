@@ -1,7 +1,3 @@
-before:
-  hooks:
-    - go mod tidy
-    
 builds:
   - id: falcon_sensor_download
     binary: falcon_sensor_download
