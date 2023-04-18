@@ -261,7 +261,7 @@ changelog:
 nfpms:
   - id: falcon_sensor_download
     package_name: gofalcon-utils
-    maintainer: simon.lukasik@crowdstrike.com
+    maintainer: integrations@crowdstrike.com
 
     file_name_template: "{{ .ProjectName }}-{{ .Version }}-{{ .Release }}.{{ .Arch }}"
     replacements:
