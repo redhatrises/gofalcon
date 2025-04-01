@@ -30,6 +30,7 @@ linters:
       - builtin$
       - examples$
       - falcon/models/*
+      - falcon/client/*
 formatters:
   enable:
     - gofmt
